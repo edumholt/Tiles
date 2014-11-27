@@ -1,0 +1,136 @@
+/* line 1, ../sass/tiles.scss */
+body {
+  background: linear-gradient(to bottom, #588dd0, #002233);
+  width: 900px;
+}
+
+/* line 6, ../sass/tiles.scss */
+h1 {
+  color: #CCC;
+  font-family: Slackey, cursive;
+  font-size: 5em;
+  margin: 0;
+  text-align: center;
+  text-shadow: 5px 5px 2px #000;
+}
+
+/* line 15, ../sass/tiles.scss */
+p {
+  margin: 12px;
+}
+
+/* line 19, ../sass/tiles.scss */
+.ui-dialog {
+  text-align: center;
+}
+
+/* line 23, ../sass/tiles.scss */
+.ui-dialog-content {
+  margin: 0 10px;
+}
+
+/* line 27, ../sass/tiles.scss */
+.ui-dialog-titlebar {
+  font-family: Slackey, cursive;
+  font-size: 4em;
+  line-height: 1em;
+  padding: 10px !important;
+}
+
+/* line 34, ../sass/tiles.scss */
+.boldBlue {
+  color: #33F;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/* line 40, ../sass/tiles.scss */
+#noTime {
+  color: #F6A828;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* line 47, ../sass/tiles.scss */
+#border {
+  background-color: #999;
+  border: 8px ridge #555;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px #000;
+  cursor: pointer;
+  height: 500px;
+  margin: 0 auto;
+  padding: 10px 0 10px 10px;
+  width: 90%;
+}
+
+/* line 59, ../sass/tiles.scss */
+#border > div {
+  box-shadow: 2px 2px 3px #000;
+  border: 2px solid #333;
+  border-radius: 4px;
+  font-family: FontAwesome;
+  font-size: 2.8em;
+  font-weight: 700;
+  float: left;
+  height: 48px;
+  margin: 5px;
+  text-align: center;
+  width: 10.6%;
+}
+
+/* line 74, ../sass/tiles.scss */
+div .col1 {
+  background: #F00;
+}
+/* line 77, ../sass/tiles.scss */
+div .col2 {
+  background: #F60;
+}
+/* line 80, ../sass/tiles.scss */
+div .col3 {
+  background: #FF0;
+}
+/* line 83, ../sass/tiles.scss */
+div .col4 {
+  background: #3F0;
+}
+/* line 86, ../sass/tiles.scss */
+div .col5 {
+  background: #0C9;
+}
+/* line 89, ../sass/tiles.scss */
+div .col6 {
+  background: #06c;
+}
+/* line 92, ../sass/tiles.scss */
+div .col7 {
+  background: #00f;
+}
+/* line 95, ../sass/tiles.scss */
+div .col8 {
+  background: #909;
+}
+
+/* line 100, ../sass/tiles.scss */
+#border > div.highlight {
+  border: 2px solid #FFF;
+  box-shadow: 0 0 18px #EEE;
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* line 107, ../sass/tiles.scss */
+.hideMe {
+  display: none;
+}
+
+/* line 111, ../sass/tiles.scss */
+footer {
+  color: #BBB;
+  margin-top: 28px;
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#</title>
+  <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/jquery-ui-1.10.4.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/tiles.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.css">
+</head>
+<body>
+  <h1>TILES!</h1>
+
+  <!-- #border contains all the divs we will create dynamically using JavaScript & jQuery -->
+  <div id="border"></div>
+
+  <!-- the following four divs are used by jQuery UI -->
+  <div id="dialogStart" title="TILES!">
+    <p>Do you know how to click a mouse? <strong>Outstanding!</strong> That's all you need to know to play this game. On the screen behind me, you will see an 8x8 grid of tiles. These tiles will light up randomly. The object of the game is to click on the highlighted tiles before they go dark.</p>
+    <p>You will have 20 chances to click on<br><span class="boldBlue"><em>ten highlighted tiles.</em></span><br>If you are successful, you can advance to the next level.</p>
+    <p>Each successive level is just a <em>little</em> bit <br>faster than the one before it.</p>
+    <p>Oh yeah, just sitting there watching the tiles light up and not doing anything...</p><p><span id="noTime">that's not gonna buy you any time!</span></p>
+    <p>Each time a tile lights up and you don't click on it, <em>it counts against you.</em> Are you ready to play?</p>
+  </div>
+
+  <div id="dialogSuccess" class="hideMe" title="YES!">
+    <h2>You completed the level! Wanna try the next one?</h2>
+  </div>
+
+  <div id="dialogFail" class="hideMe" title="DOH!">
+    <h2>DUDE! I can't believe it. You leave me no choice...goodbye!</h2>
+  </div>
+
+  <div id="dialogQuit" class="hideMe" title="BYE!">
+    <h2>Thanks for playing <span class="boldBlue">TILES!</span></h2>
+    <h2>Y'all come back now...ya hear?</h2>
+  </div>
+
+  <footer>©2014 Edward Dumholt</footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui-1.10.4.min.js"></script>
+  <script src="js/tiles.js"></script>
+</body>
+</html>
